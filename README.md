@@ -9,7 +9,7 @@
 1. Go to HACS → Integrations
 2. Click "⋮" → Custom repositories
 3. Add:
-   https://github.com/YOURNAME/solarassistant-cloud
+   https://github.com/beerfuzz/solarassistant-cloud
 4. Select category: Integration
 5. Install
 
