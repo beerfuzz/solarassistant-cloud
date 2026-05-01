@@ -1,0 +1,15 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SolarAssistant Cloud",
+        "description": "Enter your SolarAssistant instance details",
+        "data": {
+          "url": "Instance URL",
+          "cookies": "Cookie String",
+          "scan_interval": "Scan Interval (seconds)"
+        }
+      }
+    }
+  }
+}

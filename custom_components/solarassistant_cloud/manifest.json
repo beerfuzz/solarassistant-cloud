@@ -1,0 +1,10 @@
+{
+  "domain": "solarassistant_cloud",
+  "name": "SolarAssistant Cloud",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/YOURNAME/solarassistant-cloud",
+  "requirements": ["requests"],
+  "codeowners": ["@YOURNAME"],
+  "iot_class": "cloud_polling"
+}

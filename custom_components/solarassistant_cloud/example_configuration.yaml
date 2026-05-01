@@ -1,0 +1,5 @@
+sensor:
+  - platform: solarassistant_cloud
+    url: "https://beerfuzz01.us.solar-assistant.io"
+    cookies: "_solar_assistant_key=...; site_key=..."
+    scan_interval: 60
