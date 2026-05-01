@@ -7,9 +7,12 @@ _LOGGER = logging.getLogger(__name__)
 
 class SolarAssistantCoordinator(DataUpdateCoordinator):
 
-    def __init__(self, hass, url, cookies, scan_interval):
+    def __init__(self, hass, url, solar_key, site_key, scan_interval):
         self.url = url
-        self.cookies = self._parse_cookie_string(cookies)
+        self.cookies = {
+            "_solar_assistant_key": solar_key,
+            "site_key": site_key,
+           }
 
         super().__init__(
             hass,

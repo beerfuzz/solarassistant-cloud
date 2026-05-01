@@ -3,10 +3,11 @@
     "step": {
       "user": {
         "title": "SolarAssistant Cloud",
-        "description": "Enter your SolarAssistant instance details",
+        "description": "Enter your SolarAssistant instance details.\n\nGet these values from your browser cookies (F12 → Application → Cookies).",
         "data": {
           "url": "Instance URL",
-          "cookies": "Cookie String",
+          "solar_assistant_key": "Solar Assistant Key",
+          "site_key": "Site Key",
           "scan_interval": "Scan Interval (seconds)"
         }
       }

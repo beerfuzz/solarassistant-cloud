@@ -13,7 +13,8 @@ class SolarAssistantConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
         schema = vol.Schema({
             vol.Required("url"): str,
-            vol.Required("cookies"): str,
+            vol.Required("solar_assistant_key"): str,
+            vol.Required("site_key"): str,
             vol.Optional("scan_interval", default=60): int,
         })
 

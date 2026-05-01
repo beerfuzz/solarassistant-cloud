@@ -8,7 +8,8 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry):
     coordinator = SolarAssistantCoordinator(
         hass,
         entry.data["url"],
-        entry.data["cookies"],
+        entry.data["solar_assistant_key"],
+        entry.data["site_key"],
         entry.data.get("scan_interval", 60),
     )
 
