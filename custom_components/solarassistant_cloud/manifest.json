@@ -5,6 +5,6 @@
   "config_flow": true,
   "documentation": "https://github.com/YOURNAME/solarassistant-cloud",
   "requirements": ["requests"],
-  "codeowners": ["@YOURNAME"],
+  "codeowners": ["@BEERFUZZ"],
   "iot_class": "cloud_polling"
 }
